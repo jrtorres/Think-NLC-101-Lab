@@ -77,7 +77,7 @@ When you have completed this lab you will have:
 
 1. We now need to add the training data. The data is structured to be a set of text examples with their associated class label (or multiple class labels). These are the labels the model will predict in the future when given text. Feel free to open the training data (in the `\data-sets\ folder) to see the structure of the data. The first column represents an example piece of text and the subsequent columns represent the label we assign to that text (i.e what we want the model to predict).
 
-1. On the right hand panel. Add the data set to your project by clicking the `Browse` button, browse to where you cloned this repo and select the csv files for the data-set you want to use. *Note: For the purposes of this lab, within the data set you want to use find the files with a `_smallsubset.csv` postfix. These are smaller data sets so that the model will train faster.*  
+1. On the right hand panel. Add the data set to your project by clicking the `Browse` button, browse to where you cloned this repo and then the `data-sets` folder. Select the csv file for the data-set you want to use. *Note: For the purposes of this lab, within the data set folder you want to use, only select the files with a `_smallsubset.csv` postfix if they are available. These are smaller data sets so that the model will train faster.*  
    ![select-training-csv](docs/images/17.png)
 
 1. Once the CSV file is uploaded. Click on the three button menu and click on **`Add to model`** option.  
@@ -106,7 +106,7 @@ When you have completed this lab you will have:
 
 1. Also note that you can click on the `Implementation` tab to see how to use the classifier with Curl, Java, Node, or Python.
 
-**You have now completed the lab to create an NLC model. Feel free to proceed to the next section to call the classifier model throug a sample application**
+**You have now completed the lab to create an NLC model. Feel free to proceed to the next section to call the classifier model through a sample application**
 
 ## Run the Application
 
