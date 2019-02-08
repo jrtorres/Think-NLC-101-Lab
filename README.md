@@ -4,6 +4,7 @@ In this lab we will be using IBM Watson Natural Language Classifier (NLC) to tra
 
 * A [consumer complaint dataset](https://www.consumerfinance.gov/data-research/consumer-complaints/#download-the-data) (*Please note that this data is free to use for non-commercial use, and explicit permission must be obtained otherwise*). To create a classification model that will determine if a given piece of text represents a mortgage, banking, loans or credit card related support ticket.
 * An [Airbnb review](http://insideairbnb.com/get-the-data.html) data set. To create a classification model that will determine if a review text is discussing issues related to Noise, Hospitality, Cleanliness, Environment, Location, Amenities, Communication or somthing else.
+* A Weather data set.
 
 When you have completed this lab you will have:
 
@@ -19,11 +20,11 @@ When you have completed this lab you will have:
 
 ## Environment Setup
 
-1. Clone this `REPO-NAME` locally. In a terminal, run:
+1. Clone this `Think-NLC-101-Lab` locally. In a terminal, run:
 
-```
-$ git clone https://github.com/IBM/support-ticket-classification.git
-```
+   ```
+   $ git clone https://github.com/jrtorres/Think-NLC-101-Lab.git
+   ```
 
 1. Go to the [IBM Cloud console]((https://cloud.ibm.com)) - (https://cloud.ibm.com) and log in.
 
@@ -109,7 +110,9 @@ $ git clone https://github.com/IBM/support-ticket-classification.git
 
 ## Run the Application
 
-Follow the steps in the application README to configure and start the sample application.
+Follow the steps in the application README to configure and run the sample application.
+
+**[Sample Application Readme](server/README.md)**
 
 # Links and Resources
 

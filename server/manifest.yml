@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  name: nlc-general-demo-app
+  disk_quota: 512M
+  env:
+    CLASSIFIER_ID: placeholder
+    NATURAL_LANGUAGE_CLASSIFIER_USERNAME: placeholder
+    NATURAL_LANGUAGE_CLASSIFIER_PASSWORD: placeholder

@@ -1,0 +1,86 @@
+.jumbotron--header {
+  margin-top: 0rem;
+}
+
+.question-input--input-container {
+  display: block;
+}
+
+@media (min-width: 640px) {
+  .question-input--input-container {
+    width: 82.97872%;
+    margin-right: 2.12766%;
+    float: left;
+    display: block;
+  }
+}
+
+.question-input--input {
+  width: 100%;
+  max-width: initial;
+}
+
+.question-input--button-container {
+  display: block;
+}
+
+@media (min-width: 640px) {
+  .question-input--button-container {
+    width: 14.89362%;
+    float: left;
+    display: block;
+    margin-top: 0rem;
+  }
+}
+
+.question-input--submit-button {
+  width: 100%;
+}
+
+.sample-questions--left {
+  display: block;
+}
+
+@media (min-width: 640px) {
+  .sample-questions--left {
+    width: 48.93617%;
+    margin-right: 2.12766%;
+    float: left;
+    display: block;
+  }
+}
+
+.sample-questions--right {
+  display: block;
+}
+
+@media (min-width: 640px) {
+  .sample-questions--right {
+    width: 48.93617%;
+    float: left;
+    display: block;
+    margin-top: 0rem;
+  }
+}
+
+.base--a {
+  cursor: pointer;
+}
+.service-error {
+  text-align: center;
+}
+
+.service-error--image {
+  margin: 2rem auto;
+  width: 6.5rem;
+  height: auto;
+  display: block;
+}
+
+.service-error--message {
+  color: #d74108;
+  text-align: center;
+}
+.disclaimer--message .base--h6{
+  padding-top: 6px;
+}
