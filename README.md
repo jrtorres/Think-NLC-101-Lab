@@ -49,13 +49,13 @@ When you have completed this lab you will have:
 1. You have different options for the type of project, depending on what kind of work you will be doing in Watson Studio and what kind of services/features you will be using. Select the **`Standard`** option to create a project with all features.  
    ![ws-project-type](docs/images/7.png)
 
-1. Before you can create the project. You will need to create an object storage where all the project assets will be stored. Under the `Define storage` section, click on the **`Add`** link to create a new instance of Cloud Object Storage.  
+1. Before you can create the project. You will need to create an object storage where all the project assets will be stored. Under the `Define storage` section, click on the **`Add`** link to create a new instance of Cloud Object Storage (*Note: A new browser window / tab may open to create the object storage*).  
    ![add-cos](docs/images/8.png)
 
 1. Leave the default options and click the **`Create`** button and then click the **`Confirm`** button in the subsequent window.  
    ![create-cos](docs/images/9.png)
 
-1. You will be taken back to the `New Project` page. Give your project a name ('NLCLab101') and click the `Create` button. (*Note: you may have to click the refresh option if the storage is not prefilled with the name of the cloud object storage instance you created in the prior step*).  
+1. You will be taken back to the `New Project` page. Give your project any name (for example, 'NLC-Lab101') and click the `Create` button. (*Note: you may have to click the refresh option if the storage is not prefilled with the name of the cloud object storage instance you created in the prior step*).  
    ![create-project](docs/images/11.png)
 
 1. Now you will associate a Natural Language Classifier service to your project. Click on the **`Settings`** tab, scroll down to `Associated services` then click **`+ Add service`** drop down and select the **`Watson`** option:  
@@ -75,15 +75,15 @@ When you have completed this lab you will have:
  1. Click `Natural Language Classifier model` type to bring up the `New Classifier` tooling page where you will be able to create and train a model.  
    ![new-nlc-model](docs/images/16.png)
 
-1. We now need to add the training data. The data is structured to be a set of text examples with their associated class label (or multiple class labels). These are the labels the model will predict in the future when given text. Feel free to open the training data (in the `\data-sets\ folder) to see the structure of the data. The first column represents an example piece of text and the subsequent columns represent the label we assign to that text (i.e what we want the model to predict).
+1. We now need to add the training data. The data is structured to be a set of text examples with their associated class label (or multiple class labels). These are the labels the model will predict in the future when given text. Feel free to open one of the training data files in the `data-sets` folder of this repo (i.e /data-sets/airbnb/airbnb_categories_smallsubset.csv) to see the structure of the data. The first column represents an example piece of text and the subsequent columns represent the label we assign to that text (i.e what we want the model to predict).
 
-1. On the right hand panel. Add the data set to your project by clicking the `Browse` button, browse to where you cloned this repo and then the `data-sets` folder. Select the csv file for the data-set you want to use. *Note: For the purposes of this lab, within the data set folder you want to use, only select the files with a `_smallsubset.csv` postfix if they are available. These are smaller data sets so that the model will train faster.*  
+1. On the right hand panel. Add the data set to your project by clicking the `Browse` button, browse to where you cloned this repo and then the `data-sets` folder. Select the csv file under the data-set type that you want to use. *Note: For the purposes of this lab, within the data set folder you want to use, only select the files with a `_smallsubset.csv` postfix if they are available. These are smaller data sets so that the model will train faster. For the lab, suggest you use the `data-sets-airbnb/airbnb_categories_smallsubset.csv` file.*  
    ![select-training-csv](docs/images/17.png)
 
 1. Once the CSV file is uploaded. Click on the three button menu and click on **`Add to model`** option.  
    ![add-csv-to-model](docs/images/18.png)
 
-1. You can now give your model a name (i.e 'AirbnbReviewModel') in the top right and then Click on the `Train model` button. You will be presented with a dialog to specify the language of the model. Select `English` and click the **`Train`**button to begin training. The model will take several minutes to train (or longer depending on the data set selected).  
+1. You can now give your model a name (i.e 'AirbnbReviewModel') in the top left and then Click on the `Train model` button on the top right. You will be presented with a dialog to specify the language of the model. Select `English` and click the **`Train`**button to begin training. The model will take several minutes to train (or longer depending on the data set selected).  
    ![start-model-training](docs/images/19.png)
 
 1. You must wait for the model to become 'Available' before you can use it. To check the status of the model, and access it after it trains, go to the `Assets` tab of your project. Under the `Models` section, you should see the model name you provided when you kicked off the training. Click the model name to see the `Overview` tab with metadata about your model.  
@@ -120,5 +120,5 @@ Follow the steps in the application README to configure and run the sample appli
 * [Watson Natural Language Classifier Demo](https://github.com/watson-developer-cloud/natural-language-classifier-nodejs)
 * [Watson Node.js SDK](https://github.com/watson-developer-cloud/node-sdk)
 * [Classify Support Tickets Code Pattern](https://developer.ibm.com/patterns/watson-studio-nlc-technical-support-ticket-categorization/)
-* [Email phising Classifier Code Pattern](https://developer.ibm.com/patterns/predict-phishing-attempts-in-email-with-nlc/)
+* [Email phishing Classifier Code Pattern](https://developer.ibm.com/patterns/predict-phishing-attempts-in-email-with-nlc/)
 * [AI Code Patterns](https://developer.ibm.com/technologies/artificial-intelligence/).
