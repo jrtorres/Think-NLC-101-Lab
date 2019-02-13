@@ -27,6 +27,8 @@ When you have completed this lab you will have:
    ```
 
 1. Go to the [IBM Cloud console]((https://cloud.ibm.com)) - (https://cloud.ibm.com) and log in.
+   * If you have a trial account, we can extend it to temporarily provide access to services that do not currently have a Lite plan. In a separate browser window/tab open: https://developer.ibm.com/callforcode/featurecode and enter in the confirmation code provided to you. A code will be retrieved and displayed (it can also be retrieved at a later time by revisiting the site).
+   * To apply the code, open the IBM Cloud dashboard at https://cloud.ibm.com . Navigate to *Manage* -> *Account* -> *Account settings*. In the *Feature Codes* section, click on *Apply* to open a panel to enter the provided code and click on *Apply* to activate the code for the account.
 
 1. Click on the **`Catalog`** link in the top banner of the IBM Cloud dashboard.  
    ![catalog-link](docs/images/1.png)
